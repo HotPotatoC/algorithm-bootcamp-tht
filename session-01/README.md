@@ -7,9 +7,9 @@ Heri adalah guru matematika SMA. Heri ingin mengurutkan data nilai UAS Matematik
 ## First Approach - Bubble Sort
 Sorting dengan mengiterasi produk secara berulang-ulang dan membandingi harga produk pertama dengan harga produk berikutnya
 
-```
-foreach Row in Rows of multiple Siswa : // O(n)
-    foreach Siswa in Row :    // O(n)
+```javascript
+for Row in array of Siswa : // O(n)
+    for Siswa in Row :    // O(n)
         if Nilai Siswa pertama > Nilai Siswa berikutnya :
             swap(Siswa pertama, Siswa berikutnya)
 
