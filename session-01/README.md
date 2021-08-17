@@ -24,19 +24,19 @@ for Row in array of Siswa : // O(n)
 Sorting dengan membagikan array menjadi dua bagian secara rekursif sampai tidak bisa dibagi lagi, lalu menggabungkan pecahan tersebut menjadi array yang sudah tersortir.
 
 ```javascript
-function MergeSort(array):
-    if array hanya memiliki 1 elemen :
-        return array
+function MergeSort(arrayOfStudents):
+    if arrayOfStudents hanya memiliki 1 elemen :
+        return arrayOfStudents
 
     // Belah array menjadi dua bagian
 
     middleIndex = floor ⌊i / 2⌋
 
     // Bagian kiri array
-    leftPartition = array[0] to array[middleIndex]
+    leftPartition = arrayOfStudents[0] to arrayOfStudents[middleIndex]
 
     // Bagian kanan array
-    rightPartition = array[middleIndex + 1] to array[i]
+    rightPartition = arrayOfStudents[middleIndex + 1] to arrayOfStudents[i]
 
     // Sortir pecahan array bagian kiri secara rekursif (O(log n))
     leftPartition = MergeSort(leftPartition)
