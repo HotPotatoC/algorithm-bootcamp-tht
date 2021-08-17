@@ -110,5 +110,7 @@ Number of elements (n) = 6
 Approach 1 & Approach 2 Complexity Plot
 
 **Red**: Approach 1 ***`O(n^2)`***
+
 **Blue**: Approach 2 ***`O(n log n)`***
+
 ![Solutions Complexity Plot](plot.png)
