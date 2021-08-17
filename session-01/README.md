@@ -7,6 +7,8 @@ Heri adalah guru matematika SMA. Heri ingin mengurutkan data nilai UAS Matematik
 ## First Approach - Bubble Sort
 Sorting dengan mengiterasi produk secara berulang-ulang dan membandingi harga produk pertama dengan harga produk berikutnya
 
+**Pseudocode:**
+
 ```javascript
 for Row in array of Siswa : // O(n)
     for Siswa in Row :    // O(n)
@@ -22,6 +24,8 @@ for Row in array of Siswa : // O(n)
 ## Second Approach - Merge Sort
 
 Sorting dengan membagikan array menjadi dua bagian secara rekursif sampai tidak bisa dibagi lagi, lalu menggabungkan pecahan tersebut menjadi array yang sudah tersortir.
+
+**Pseudocode:**
 
 ```javascript
 function MergeSort(arrayOfStudents):
