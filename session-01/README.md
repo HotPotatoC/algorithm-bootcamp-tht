@@ -34,7 +34,7 @@ function MergeSort(arrayOfStudents):
 
     // Belah array menjadi dua bagian
 
-    middleIndex = floor ⌊i / 2⌋
+    middleIndex = ⌊i / 2⌋
 
     // Bagian kiri array
     leftPartition = arrayOfStudents[0] to arrayOfStudents[middleIndex]
