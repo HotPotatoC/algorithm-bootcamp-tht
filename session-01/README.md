@@ -5,7 +5,7 @@ Heri adalah guru matematika SMA. Heri ingin mengurutkan data nilai UAS Matematik
 # Solution
 
 ## First Approach - Bubble Sort
-Sorting dengan mengiterasi produk secara berulang-ulang dan membandingi harga produk pertama dengan harga produk berikutnya
+Sorting dengan mengiterasi nilai siswa secara berulang-ulang dan membandingi nilai siswa pertama dengan nilai siswa berikutnya
 
 **Pseudocode:**
 
