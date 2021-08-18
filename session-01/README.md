@@ -28,9 +28,11 @@ Sorting dengan membagikan daftar nilai siswa menjadi dua bagian secara rekursif 
 **Pseudocode:**
 
 ```javascript
-function MergeSort(arrayOfStudents):
-    if arrayOfStudents hanya memiliki 1 siswa :
-        return arrayOfStudents
+function MergeSort(arrayOfStudentsScore):
+    if arrayOfStudentsScore hanya memiliki 1 nilai siswa :
+        // dikarenakan hanya memiliki 1 nilai dalam array
+        // maka dianggap sudah tersortir
+        return arrayOfStudentsScore
 
     // Belah array menjadi dua bagian
 
@@ -38,10 +40,10 @@ function MergeSort(arrayOfStudents):
     middleIndex = ⌊i / 2⌋
 
     // Bagian kiri array
-    leftPartition = arrayOfStudents[0] to arrayOfStudents[middleIndex]
+    leftPartition = arrayOfStudentsScore[0] to arrayOfStudentsScore[middleIndex]
 
     // Bagian kanan array
-    rightPartition = arrayOfStudents[middleIndex + 1] to arrayOfStudents[i]
+    rightPartition = arrayOfStudentsScore[middleIndex + 1] to arrayOfStudentsScore[i]
 
     // Sortir pecahan array bagian kiri secara rekursif (O(log n))
     leftPartition = MergeSort(leftPartition)
