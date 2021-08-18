@@ -34,6 +34,7 @@ function MergeSort(arrayOfStudents):
 
     // Belah array menjadi dua bagian
 
+    // Ambil posisi tengah dalam array siswa
     middleIndex = ⌊i / 2⌋
 
     // Bagian kiri array
@@ -57,19 +58,19 @@ function Merge(leftPartition, rightPartition):
 
     while leftPartition && rightPartition tidak kosong :
         if leftPartition[0] > rightPartition[0] :
-            add rightPartition[0] into tempArray
-            delete rightPartition[0] in rightPartition
+            add item pertama dalam rightPartition ke tempArray
+            delete item pertama dalam rightPartition
         else
-            add leftPartition[0] into tempArray
-            delete leftPartition[0] in leftPartition
+            add item pertama dalam leftPartition ke tempArray
+            delete item pertama dalam leftPartition
 
     while leftPartition tidak kosong :
-        add leftPartition[0] into tempArray
-        delete leftPartition[0] in leftPartition
+        add item pertama dalam leftPartition ke tempArray
+        delete item pertama dalam leftPartition
 
     while rightPartition tidak kosong :
-        add rightPartition[0] into tempArray
-        delete rightPartition[0] in rightPartition
+        add item pertama dalam rightPartition ke tempArray
+        delete item pertama dalam rightPartition
 
     return tempArray
 
