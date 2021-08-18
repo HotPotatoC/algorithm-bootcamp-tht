@@ -105,6 +105,7 @@ Number of elements (n) = 6
                      \                  /
                       \                /
                       [1, 2, 3, 4, 5, 6]
+*/
 ```
 
 - Worst-case & Best-case Scenario: ***`O(n log n)`***
