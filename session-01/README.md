@@ -5,7 +5,7 @@ Heri adalah guru matematika SMA. Heri ingin mengurutkan data nilai UAS Matematik
 # Solution
 
 ## First Approach - Bubble Sort
-Sorting dengan mengiterasi nilai siswa secara berulang-ulang dan membandingi nilai siswa pertama dengan nilai siswa berikutnya
+Sorting dengan mengiterasi daftar nilai siswa secara berulang-ulang dan membandingi nilai siswa pertama dengan nilai siswa berikutnya
 
 **Pseudocode:**
 
@@ -23,7 +23,7 @@ for Row in array of Siswa : // O(n)
 
 ## Second Approach - Merge Sort
 
-Sorting dengan membagikan array menjadi dua bagian secara rekursif sampai tidak bisa dibagi lagi, lalu menggabungkan pecahan tersebut menjadi array yang sudah tersortir.
+Sorting dengan membagikan daftar nilai siswa menjadi dua bagian secara rekursif sampai tidak bisa dibagi lagi, lalu menggabungkan pecahan tersebut menjadi daftar nilai siswa yang sudah tersortir.
 
 **Pseudocode:**
 
