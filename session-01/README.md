@@ -78,34 +78,35 @@ function Merge(leftPartition, rightPartition):
 Visual Representation example
 ms() = MergeSort(array)
 Number of elements (n) = 6
+Daftar nilai yang ingin disort = [90, 78, 75, 84, 95, 65]
 
                 Time Complexity: O(n log n)
                         -> O(6 log 6)
                         -> O(6 * 3) = 3 level pembagian untuk 6 elemen
-                   ms([1, 6, 3, 5, 4, 2])
+                   ms([90, 78, 75, 84, 95, 65])
                              ^
                            /   \
                           /     \
                          /       \
               O(n)      /         \    O(n)
-          ms([1, 6, 3])           ms([5, 4, 2])   // Level 1
+          ms([90, 78, 75])         ms([84, 95, 65])   // Level 1
                  ^                        ^
                 / \                      / \
                /   \                    /   \
               /     \                  /     \
              /       \                /       \
       O(n)  /         \  O(n)        / O(n)    \   O(n)
-      ms([1])        ms([6, 3])   ms([5])     ms([4, 2])   // Level 2
+      ms([90])      ms([78, 75])   ms([84])     ms([95, 65])   // Level 2
           /      |      \          /       |     \
          /       |       \        /        |      \
         /        |        \      /         |       \
-    ms([1])     ms([3]) ms([6]) ms([5])   ms([2])  ms([4]) // Level 3
+   ms([90])    ms([75]) ms([78]) ms([84]) ms([65]) ms([95]) // Level 3
                   \                        /
                    \                      /
                     \                    /
                      \                  /
                       \                /
-                      [1, 2, 3, 4, 5, 6]
+                   [65, 75, 78, 84, 90, 95]
 */
 ```
 
