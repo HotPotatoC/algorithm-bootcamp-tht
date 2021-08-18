@@ -37,13 +37,13 @@ function MergeSort(arrayOfStudentsScore):
     // Belah array menjadi dua bagian
 
     // Ambil posisi tengah dalam array siswa
-    middleIndex = ⌊i / 2⌋
+    middleIndex = ⌊Panjang arrayOfStudentsScore / 2⌋
 
     // Bagian kiri array
     leftPartition = arrayOfStudentsScore[0] to arrayOfStudentsScore[middleIndex]
 
     // Bagian kanan array
-    rightPartition = arrayOfStudentsScore[middleIndex + 1] to arrayOfStudentsScore[i]
+    rightPartition = arrayOfStudentsScore[middleIndex + 1] to end of arrayOfStudentsScore
 
     // Sortir pecahan array bagian kiri secara rekursif (O(log n))
     leftPartition = MergeSort(leftPartition)
