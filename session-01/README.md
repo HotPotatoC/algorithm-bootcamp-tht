@@ -29,7 +29,7 @@ Sorting dengan membagikan daftar nilai siswa menjadi dua bagian secara rekursif 
 
 ```javascript
 function MergeSort(arrayOfStudents):
-    if arrayOfStudents hanya memiliki 1 elemen :
+    if arrayOfStudents hanya memiliki 1 siswa :
         return arrayOfStudents
 
     // Belah array menjadi dua bagian
@@ -53,7 +53,7 @@ function MergeSort(arrayOfStudents):
 
 function Merge(leftPartition, rightPartition):
     // tempArray adalah array dari hasil gabungan array leftPartition dan array rightPartition
-    declare tempArray
+    var tempArray
 
     while leftPartition && rightPartition tidak kosong :
         if leftPartition[0] > rightPartition[0] :
